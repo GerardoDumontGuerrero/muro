@@ -1,0 +1,33 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+div {
+    width: 80%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;;
+}
+
+div input {
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding:10px;
+}
+
+div input[type=button] {
+    background-color: blue;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color:cadetblue;
+}
+
+div input[type=button]:hover {
+    background-color:bisque;
+    color: black;
+    cursor:pointer;
+}
